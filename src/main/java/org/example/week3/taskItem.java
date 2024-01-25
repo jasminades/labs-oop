@@ -15,5 +15,16 @@ public class TaskItem {
         this.taskStatus = taskStatus;
     }
 
-    // Add getter methods and any other necessary methods
+    public int getTaskID(){
+        return taskId;
+    }
+
+    public String getTaskDescription(){
+        return taskDescription;
+    }
+
+    public Status getTaskStatus(){
+        return taskStatus;
+    }
+    
 }
